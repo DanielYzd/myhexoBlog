@@ -5,10 +5,10 @@
 # Site
 title: Daniel's Blog
 subtitle:
-description:
+description: 开心果
 keywords:
 author: Daniel Yang
-language: zh
+language: zh-Hans
 timezone:
 
 # URL
@@ -93,3 +93,9 @@ deploy:
   repo:
     github: https://github.com/DanielYzd/danielyang.github.com.git
   branch: master
+# 文章字数统计
+symbols_count_time:
+  symbols: true
+  time: true
+  total_symbols: true
+  total_time: true

@@ -92,14 +92,14 @@ index_with_subtitle: false
 # Value before `||` delimeter is the target link.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
 menu:
-  home: / || home
+  home: /
   #about: /about/ || user
   #tags: /tags/ || tags
   #categories: /categories/ || th
   archives: /archives/ || archive
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
-  #commonweal: /404/ || heartbeat
+  # commonweal: /404/ || heartbeat
 
 # Enable/Disable menu icons.
 menu_icons:
@@ -128,6 +128,16 @@ gitalk:
   ClientSecret: e6e9fb6739f8898d00e350c329934e70fe31c26c   # 上文注册 OAuth Application后得到的值
   adminUser: danielyzd         # 指定可初始化评论账户, 例：vonsdite   注意必须小写 
   distractionFreeMode: true
+
+# ---------------------------------------------------------------
+# 文章字数统计
+# ---------------------------------------------------------------
+
+# symbols_count_time:
+#   symbols: true
+#   time: true
+#   total_symbols: true
+#   total_time: true
 
 # ---------------------------------------------------------------
 # Sidebar Settings
@@ -242,9 +252,9 @@ post_meta:
 # Dependencies: https://github.com/willin/hexo-wordcount
 post_wordcount:
   item_text: true
-  wordcount: false
-  min2read: false
-  totalcount: false
+  wordcount: true  #单篇 字数统计
+  min2read: true   #单篇 阅读时长
+  totalcount: true  #网站 字数统计
   separated_meta: true
 
 # Wechat Subscriber

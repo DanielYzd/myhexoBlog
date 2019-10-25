@@ -13,3 +13,4 @@ tags:
 [博客实例](https://pojian.xyz/)
 [Hexo添加字数统计和阅读时长](https://www.cnblogs.com/php-linux/p/8418518.html)
 [Hexo Next主题当前菜单下划线显示](https://blog.csdn.net/qq_31279347/article/details/82427562)
+[hexo的next主题个性化教程:打造炫酷网站](http://shenzekun.cn/hexo%E7%9A%84next%E4%B8%BB%E9%A2%98%E4%B8%AA%E6%80%A7%E5%8C%96%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B.html)
